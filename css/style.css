@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.main {
+    margin-top: 48px;
+    text-align: center;
+}
+
+.playerTwo {
+    display: none;
+}
+
+.input-button,
+.input-button1{
+    position: relative;
+    display: inline-block;
+}
+
+.icon-box,
+.icon-box1 {
+	position: absolute;
+	top: 10px;
+	right: 101px;
+}
+
+.icon-y,
+.icon-b{
+    display: none;
+}
+
+.playerOne-tx,
+.playerTwo-tx {
+    margin-bottom: 24px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: lightskyblue;
+}
+
+.playerOne-inp,
+.playerTwo-inp {
+	width: 248px;
+	height: 32px;
+	padding: 1px 8px 0px;
+}
+
+.playerOne-inp::placeholder,
+.playerTwo-inp::placeholder {
+	font-size: 17px;
+	color: #9999998a;
+}
+
+.playerOne-bt,
+.playerTwo-bt {
+	width: 96px;
+    padding: 4px 0px 7px;
+	margin-left: -4px;
+	background: cornflowerblue;
+	font-size: 18px;
+	letter-spacing: 1px;
+    color: lemonchiffon;
+	cursor: pointer;
+}
+
+.playerOne-er,
+.playerTwo-er {
+    margin-top: 12px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: grey;
+}
+
+.chance {
+    margin-top: 12px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: grey;
+}
